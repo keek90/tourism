@@ -1,0 +1,31 @@
+body{
+    background-image:url(https://www.akshartours.com/wp-content/uploads/2020/07/Alleppey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.s1{
+    display:flex;
+    flex-direction: column;
+}
+.card{
+   height:450px;
+   flex:1 0 auto;
+   
+}
+ .navbar-brand{
+    z-index: 1;
+}
+.j{
+    position: absolute;
+    top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding: 10px;
+        z-index: 1;
+        font-size: 56px;
+}
