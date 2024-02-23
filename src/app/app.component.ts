@@ -52,6 +52,7 @@ export class AppComponent {
 },{
   "id": 8,
   "title": "Kasargod",
-  "description": ""
+  "description": "Off the radar for commoners and the land of exquisite folk art, tourist places in Kasaragod are reserved for hardcore.",
+  "image": "https://media1.thrillophilia.com/filestore/iu79udtdy63d7kkbi25r56oojnml_1552979160_bekal_fort.jpg?w=753&h=450&dpr=1.0"
 }]
 }
