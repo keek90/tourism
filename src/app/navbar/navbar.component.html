@@ -1,0 +1,26 @@
+<nav class="navigationWrapper">
+    <div class="logoWrapper">
+      <span class="stylish">Kerala Tourism</span>
+      
+    </div>
+    <ul class="navigation">
+      <li class="parent" ><a  class="link" routerLink="">Home</a></li>
+      <li class="parent"><a class="link" routerLink="/login">Login</a></li>
+      <li class="parent"><a class="link" routerLink="/signup">Signup</a></li>
+      <li class="parent"><a class="link" routerLink="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <script>
+    var clients = document.getElementById('clients');
+  var services = document.getElementById('services');
+  
+  clients.addEventListener('click', function() {
+    $(clients).toggleClass("active");
+    $(".parent:not(#clients)").toggleClass("invisible");
+  }, false);
+  
+  services.addEventListener('click', function() {
+    $(services).toggleClass("active");
+    $(".parent:not(#services)").toggleClass("invisible");
+  }, false);
+  </script>
