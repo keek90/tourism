@@ -42,7 +42,7 @@
               <div class="card-body">
                 <h5 class="card-title">{{item.title}}</h5>
                 <p class="card-text">{{item.description}}</p>
-                <a href="#" class="btn btn-outline-success">EXPLORE</a>
+                <a [routerLink]="['/single', item.id]" class="btn btn-outline-success">EXPLORE</a>
               </div>
             </div> 
           </div>
